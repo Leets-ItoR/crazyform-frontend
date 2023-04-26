@@ -1,13 +1,15 @@
 <script>
   import Router from "svelte-spa-router";
-  import Home from "./pages/Home.svelte";
-  import Login from "./pages/Login.svelte";
-  import TeamMember from "./pages/TeamMember.svelte";
+  import Home from "./pages/home.svelte";
+  import Login from "./pages/login.svelte";
+  import TeamMember from "./pages/teamMember.svelte";
+  import MyForm from "./pages/myForm.svelte";
 
   const routes = {
     "/": Home,
     "/login": Login,
     "/team-member": TeamMember,
+    "/my-form": MyForm,
   };
 </script>
 

@@ -9,7 +9,7 @@
     >
       <!-- <a href="https://flowbite.com" class="flex items-center"> -->
       <div class="flex items-center">
-        <img src={logo} class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+        <img src={logo} class="mr-3 h-6 sm:h-9" alt="ItoR Logo" />
         <span
           class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
           >ItoR</span
@@ -19,13 +19,13 @@
       <div class="flex items-center lg:order-2">
         <a
           href="#/login"
-          class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+          class="text-gray-800 dark:text-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
           >Log in</a
         >
         <a
-          href="#"
-          class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
-          >Get started</a
+          href="#/my-form"
+          class="bg-primary-700 hover:bg-gray-100 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 dark:text-white"
+          >My Forms</a
         >
         <button
           data-collapse-toggle="mobile-menu-2"
@@ -84,7 +84,7 @@
             <a
               href="#"
               class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-              >Marketplace</a
+              >Make Survey</a
             >
           </li>
           <li>
@@ -119,11 +119,11 @@
       <h2
         class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
       >
-        Designed for business teams like yours
+        Welcome to ItoR World!
       </h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-400">
-        Here at Flowbite we focus on markets where technology, innovation, and
-        capital can unlock long-term value and drive economic growth.
+        Here is main page about us. but there are no any contents cuz we didn't
+        dicide what contents we make yet.
       </p>
     </div>
     <div
