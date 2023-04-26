@@ -34,18 +34,18 @@
         <div
             class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700"
         >
-            <div class="flex items-center ml-14 mb-5">
+            <a href="/" class="flex items-center ml-14 mb-5">
                 <img src={logo} class="mr-3 h-6 sm:h-9" alt="ItoR Logo" />
                 <span
                     class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
                     >ItoR</span
                 >
-            </div>
+            </a>
             <hr />
             <ul class="space-y-2 mt-5">
                 <li>
                     <a
-                        href="#"
+                        href="/"
                         class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                     >
                         <svg
@@ -101,21 +101,21 @@
                     <ul id="dropdown-pages" class="hidden py-2 space-y-2">
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                                 >Settings</a
                             >
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                                 >Kanban</a
                             >
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                                 >Calendar</a
                             >

@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import Router from "svelte-spa-router";
   import Home from "./pages/home.svelte";
   import Login from "./pages/login.svelte";
@@ -15,4 +15,19 @@
 
 <main>
   <Router {routes} />
-</main>
+</main> -->
+
+<script>
+  import { Router, Route } from "svelte-routing";
+  import Home from "./pages/home.svelte";
+  import Login from "./pages/login.svelte";
+  import TeamMember from "./pages/teamMember.svelte";
+  import MyForm from "./pages/myForm.svelte";
+</script>
+
+<Router>
+  <Route path="/" component={Home} />
+  <Route path="/login" component={Login} />
+  <Route path="/team-member" component={TeamMember} />
+  <Route path="/my-form" component={MyForm} />
+</Router>
