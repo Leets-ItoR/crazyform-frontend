@@ -1,5 +1,5 @@
 <script>
-    export let innerText = "로딩 중";
+    export let innerText = "로딩";
     export let classDetail;
     export let size;
 </script>

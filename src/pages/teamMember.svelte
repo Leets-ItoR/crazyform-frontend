@@ -2,10 +2,12 @@
     import juha from "../assets/juha.jpeg";
     import Logo from "../components/Icon.svelte";
     import CheckBox from "../components/input/CheckBox.svelte";
+    import Radio from "../components/button/Radio.svelte";
 </script>
 
 <section class="bg-white dark:bg-gray-900">
     <CheckBox category="Team member" array={["주하", "대겸", "동현", "서빈"]} />
+    <Radio />
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <a href="/"> <Logo /></a>
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">

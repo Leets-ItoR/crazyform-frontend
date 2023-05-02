@@ -1,7 +1,3 @@
-<script>
-    export let imsy;
-</script>
-
 <button
     id="dropdownDefault"
     data-dropdown-toggle="dropdown"
