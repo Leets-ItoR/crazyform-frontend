@@ -23,6 +23,8 @@
   import Login from "./pages/login.svelte";
   import TeamMember from "./pages/teamMember.svelte";
   import MyForm from "./pages/myForm.svelte";
+  import DesignSystem from "./pages/DesignSystem.svelte";
+  import CheckBox from "./components/CheckBox.svelte";
 </script>
 
 <Router>
@@ -30,4 +32,6 @@
   <Route path="/login" component={Login} />
   <Route path="/team-member" component={TeamMember} />
   <Route path="/my-form" component={MyForm} />
+  <Route path="/design_system" component={DesignSystem} />
+  <Route path="/check_box" component={CheckBox} />
 </Router>

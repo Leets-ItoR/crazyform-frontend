@@ -1,5 +1,5 @@
 <script>
-    import logo from "../assets/leets.png";
+    import Logo from "../components/Icon.svelte";
 </script>
 
 <button
@@ -35,11 +35,7 @@
             class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700"
         >
             <a href="/" class="flex items-center ml-14 mb-5">
-                <img src={logo} class="mr-3 h-6 sm:h-9" alt="ItoR Logo" />
-                <span
-                    class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-                    >ItoR</span
-                >
+                <Logo />
             </a>
             <hr />
             <ul class="space-y-2 mt-5">
@@ -60,7 +56,7 @@
                                 d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"
                             /></svg
                         >
-                        <span class="ml-3">Overview</span>
+                        <span class="ml-3">My Forms</span>
                     </a>
                 </li>
                 <li>
@@ -587,5 +583,6 @@
     </aside>
     <div class="ml-64 w-screen h-screen">
         <h1 class="m-10">My Forms</h1>
+        <button type="button" class="m-10" />
     </div>
 </div>

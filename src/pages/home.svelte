@@ -1,36 +1,35 @@
 <script>
-  import logo from "../assets/leets.png";
+  import Logo from "../components/Icon.svelte";
 </script>
 
 <header>
-  <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+  <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
     <div
       class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
     >
-      <!-- <a href="https://flowbite.com" class="flex items-center"> -->
-      <div class="flex items-center">
+      <!-- <div class="flex items-center">
         <img src={logo} class="mr-3 h-6 sm:h-9" alt="ItoR Logo" />
         <span
           class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
           >ItoR</span
         >
-      </div>
-      <!-- </a> -->
+      </div> -->
+      <Logo />
       <div class="flex items-center lg:order-2">
         <a
           href="/login"
-          class="text-gray-800 dark:text-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+          class="text-gray-800 hover:bg-gray-100 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
           >Log in</a
         >
         <a
           href="/my-form"
-          class="bg-primary-700 hover:bg-gray-100 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 dark:text-white"
+          class="bg-primary-700 hover:bg-gray-100 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
           >My Forms</a
         >
         <button
           data-collapse-toggle="mobile-menu-2"
           type="button"
-          class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="mobile-menu-2"
           aria-expanded="false"
         >
@@ -69,42 +68,42 @@
           <li>
             <a
               href="/"
-              class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+              class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0"
               aria-current="page">Home</a
             >
           </li>
           <li>
             <a
               href="/"
-              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >Company</a
             >
           </li>
           <li>
             <a
               href="/"
-              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >Make Survey</a
             >
           </li>
           <li>
             <a
               href="/"
-              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >Features</a
             >
           </li>
           <li>
             <a
               href="/team-member"
-              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >Team</a
             >
           </li>
           <li>
             <a
               href="/"
-              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0"
               >Contact</a
             >
           </li>
@@ -113,15 +112,13 @@
     </div>
   </nav>
 </header>
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div class="max-w-screen-md mb-8 lg:mb-16">
-      <h2
-        class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
-      >
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
         Welcome to ItoR World!
       </h2>
-      <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+      <p class="text-gray-500 sm:text-xl">
         Here is main page about us. but there are no any contents cuz we didn't
         dicide what contents we make yet.
       </p>
@@ -131,10 +128,10 @@
     >
       <div>
         <div
-          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -145,8 +142,8 @@
             /></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold">Marketing</h3>
+        <p class="text-gray-500">
           Plan it, create it, launch it. Collaborate seamlessly with all the
           organization and hit your marketing goals every month with our
           marketing plan.
@@ -154,10 +151,10 @@
       </div>
       <div>
         <div
-          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -166,18 +163,18 @@
             /></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold">Legal</h3>
+        <p class="text-gray-500">
           Protect your organization, devices and stay compliant with our
           structured workflows and custom permissions made for you.
         </p>
       </div>
       <div>
         <div
-          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -190,20 +187,18 @@
             /></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">
-          Business Automation
-        </h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold">Business Automation</h3>
+        <p class="text-gray-500">
           Auto-assign tasks, send Slack messages, and much more. Now power up
           with hundreds of new templates to help you get started.
         </p>
       </div>
       <div>
         <div
-          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -216,18 +211,18 @@
             /></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold">Finance</h3>
+        <p class="text-gray-500">
           Audit-proof software built for critical financial operations like
           month-end close and quarterly budgeting.
         </p>
       </div>
       <div>
         <div
-          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -236,20 +231,18 @@
             /></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">
-          Enterprise Design
-        </h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold">Enterprise Design</h3>
+        <p class="text-gray-500">
           Craft beautiful, delightful experiences for both marketing and product
           with real cross-company collaboration.
         </p>
       </div>
       <div>
         <div
-          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -260,8 +253,8 @@
             /></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold">Operations</h3>
+        <p class="text-gray-500">
           Keep your company’s lights on with customizable, iterative, and
           structured workflows built for all efficient teams and individual.
         </p>

@@ -1,9 +1,15 @@
 <script>
     import juha from "../assets/juha.jpeg";
+    import Logo from "../components/Icon.svelte";
+    import CheckBox from "../components/input/CheckBox.svelte";
+    import Btn from "../components/button/Accept.svelte";
 </script>
 
 <section class="bg-white dark:bg-gray-900">
+    <CheckBox array={["주하", "대겸", "동현", "서빈"]} />
+    <Btn />
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <a href="/"> <Logo /></a>
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
             <h2
                 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
