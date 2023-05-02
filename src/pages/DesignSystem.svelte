@@ -15,7 +15,9 @@
 
 <div class="max-w-7xl mx-auto mt-20">
     <div class="flex items-center gap-6">
-        <img src={logo} class="h-6 sm:h-9" alt="ItoR Logo" />
+        <a href="/">
+            <img src={logo} class="h-6 sm:h-9" alt="ItoR Logo" />
+        </a>
         <p class="text-4xl font-semibold">Design System</p>
     </div>
 
