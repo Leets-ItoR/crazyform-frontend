@@ -17,6 +17,10 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "classnames": "^2.3.2",
+    "flowbite": "^1.6.5",
+    "flowbite-svelte": "^0.34.10",
     "svelte-routing": "^1.6.0",
     "svelte-spa-router": "^3.3.0"
   }
