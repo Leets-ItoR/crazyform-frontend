@@ -24,6 +24,7 @@
   import TeamMember from "./pages/teamMember.svelte";
   import MyForm from "./pages/myForm.svelte";
   import DesignSystem from "./pages/DesignSystem.svelte";
+  import CreateForm from "./pages/createForm.svelte";
 </script>
 
 <Router>
@@ -31,5 +32,6 @@
   <Route path="/login" component={Login} />
   <Route path="/teammember" component={TeamMember} />
   <Route path="/myform" component={MyForm} />
+  <Route path="/createform" component={CreateForm} />
   <Route path="/designsystem" component={DesignSystem} />
 </Router>

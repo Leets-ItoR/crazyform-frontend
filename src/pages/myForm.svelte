@@ -6,7 +6,9 @@
 <Sidebar />
 <div class="pl-64 flex mt-1 ml-10 mr-10 justify-between pt-3">
     <h1 class="font-bold items-center pt-2">My Forms</h1>
-    <Button innerText="Create Form" size="base" />
+    <a href="/createform">
+        <Button innerText="Create Form" size="base" />
+    </a>
 </div>
 <div class="pl-64 bg-gray-100 h-screen space-x-4">
     <div class="max-w-7xl mx-auto grid grid-cols-4 gap-4 ml-4 mt-4 pt-4">

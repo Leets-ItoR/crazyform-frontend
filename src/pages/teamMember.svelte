@@ -33,7 +33,7 @@
                     <h3
                         class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                     >
-                        <a href="#">Juha Kim</a>
+                        <a href="/">Juha Kim</a>
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400"
                         >Front-end Developer</span
@@ -54,7 +54,7 @@
                     <ul class="flex space-x-4 sm:mt-0">
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -72,7 +72,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -88,7 +88,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -106,7 +106,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -128,7 +128,7 @@
             <div
                 class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
             >
-                <a href="#">
+                <a href="/">
                     <img
                         class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
                         src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
@@ -139,7 +139,7 @@
                     <h3
                         class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                     >
-                        <a href="#">Donghyeon Kim</a>
+                        <a href="/">Donghyeon Kim</a>
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400"
                         >Front-end Developer</span
@@ -159,7 +159,7 @@
                     <ul class="flex space-x-4 sm:mt-0">
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -177,7 +177,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -193,7 +193,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -211,7 +211,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -233,7 +233,7 @@
             <div
                 class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
             >
-                <a href="#">
+                <a href="/">
                     <img
                         class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
                         src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png"
@@ -244,7 +244,7 @@
                     <h3
                         class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                     >
-                        <a href="#">Seobin Lee</a>
+                        <a href="/">Seobin Lee</a>
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400"
                         >Back-end Developer</span
@@ -264,7 +264,7 @@
                     <ul class="flex space-x-4 sm:mt-0">
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -282,7 +282,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -298,7 +298,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -316,7 +316,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -338,7 +338,7 @@
             <div
                 class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
             >
-                <a href="#">
+                <a href="/">
                     <img
                         class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
                         src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
@@ -349,7 +349,7 @@
                     <h3
                         class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
                     >
-                        <a href="#">Daegyeom Ha</a>
+                        <a href="/">Daegyeom Ha</a>
                     </h3>
                     <span class="text-gray-500 dark:text-gray-400"
                         >Back-end Developer</span
@@ -369,7 +369,7 @@
                     <ul class="flex space-x-4 sm:mt-0">
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -387,7 +387,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -403,7 +403,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
@@ -421,7 +421,7 @@
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                             >
                                 <svg
