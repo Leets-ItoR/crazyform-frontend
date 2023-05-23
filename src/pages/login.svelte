@@ -5,6 +5,19 @@
   import naverLogo from "../assets/icon/naver_logo.png";
   import kakaoLogo from "../assets/icon/kakao_logo.png";
   import appleLogo from "../assets/icon/apple_logo.png";
+
+  // login
+  let email = "",
+    password = "";
+
+  $: submit = async () => {
+    console.log(email, password);
+    await axios.post("http://13.209.44.41:8080/user/login", {
+      email,
+      password,
+    });
+    await push("/");
+  };
 </script>
 
 <section class="bg-gray-50">
@@ -76,7 +89,7 @@
       </div>
     </div>
     <div class="flex items-center justify-between gap-3 mt-4">
-      <a href="#" class="text-sm font-medium text-gray-600 hover:underline"
+      <a href="/" class="text-sm font-medium text-gray-600 hover:underline"
         >비밀번호 찾기</a
       ><span class="font-light text-sm text-gray-300">|</span><a
         href="/createaccount"
