@@ -3,6 +3,7 @@
     import Input from "../components/input/Text.svelte";
     import Visible from "../assets/visible.png";
     import Invisible from "../assets/invisible.png";
+    import Warning from "../assets/warning.png";
     import axios from "axios";
     import { pop } from "svelte-spa-router";
 
@@ -22,9 +23,12 @@
     let name = "",
         email = "",
         password = "";
+    let warningMsg = "";
+    let warningFlag = false;
 
     const checkValid = async () => {
         console.log(name, email, password);
+        warningFlag = true;
         // 닉네임, 이메일, 비밀번호가 입력이 안되었을 떄
         if (name == "" || email == "" || password == "") {
             if (name == "") throw new Error("닉네임을 입력해주세요.");
@@ -45,10 +49,10 @@
             }
             // 이메일 형식이 맞지 않을 때
             else if (!emailReg.test(email)) {
-                throw new Error("Email 형식이 맞지 않습니다.");
+                throw new Error("Email 형식이 올바르지 않습니다.");
             }
             // 비밀번호 길이가 4 미만 15 초과일 때
-            else if (password < 4 || password > 15) {
+            else if (password.length < 4 || password.length > 15) {
                 throw new Error("비밀번호는 4 ~ 15 문자로 입력해주세요.");
             }
             // 비밀번호가 영어나 숫자로 시작하지 않을 때
@@ -57,6 +61,7 @@
             }
             // 모든 유효성검사가 끝나고, 정보를 벡엔드로 전달
             else {
+                warningFlag = false;
                 await axios
                     .post("http://13.209.44.41:8080/user/signup", {
                         nickname: name,
@@ -76,7 +81,7 @@
 
     $: submit = async () => {
         await checkValid().catch((e) => {
-            alert(e.message);
+            warningMsg = e.message;
         });
     };
 </script>
@@ -95,12 +100,24 @@
             class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0"
         >
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-                <form on:submit|preventDefault={submit}>
+                <form
+                    on:submit|preventDefault={submit}
+                    class="flex flex-col gap-4"
+                >
                     <h1
                         class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl"
                     >
                         회원가입
                     </h1>
+                    {#if warningFlag}
+                        <h3 class="flex bg-amber-100 p-2 rounded-lg">
+                            <img
+                                src={Warning}
+                                alt="warning"
+                                class="w-5 h-5 mr-2 ml-2"
+                            />{warningMsg}
+                        </h3>
+                    {/if}
                     <div>
                         <label
                             for="name"
@@ -117,7 +134,7 @@
                         <label
                             for="email"
                             class="block mb-2 text-sm font-medium text-gray-900"
-                            >Email</label
+                            >이메일</label
                         >
                         <Input
                             bind:value={email}
@@ -162,7 +179,7 @@
                         <a href="/login">
                             <button
                                 class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-                                >Sign Up</button
+                                >회원가입</button
                             >
                         </a>
                     </div>
