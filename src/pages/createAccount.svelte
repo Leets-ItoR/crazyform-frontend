@@ -18,6 +18,11 @@
         inputType = "password";
     };
 
+    // register
+    let name = "",
+        email = "",
+        password = "";
+
     const checkValid = async () => {
         console.log(name, email, password);
         // 닉네임, 이메일, 비밀번호가 입력이 안되었을 떄
@@ -27,6 +32,9 @@
             else throw new Error("비밀번호를 입력해주세요.");
         } else {
             const nameReg = /[^0-9A-Za-z]/g;
+            const emailReg =
+                /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
+            const passwordReg = /^[0-9A-Za-z]/;
             // 닉네임의 길이가 3 미만 10 초과일 때
             if (name.length < 3 || name.length > 10) {
                 throw new Error("닉네임은 3 ~ 10 문자로 입력해주세요.");
@@ -34,7 +42,21 @@
             // 닉네임에 특수문자가 들어갈 때
             else if (nameReg.test(name)) {
                 throw new Error("닉네임은 특수문자가 포함될 수 없습니다.");
-            } else {
+            }
+            // 이메일 형식이 맞지 않을 때
+            else if (!emailReg.test(email)) {
+                throw new Error("Email 형식이 맞지 않습니다.");
+            }
+            // 비밀번호 길이가 4 미만 15 초과일 때
+            else if (password < 4 || password > 15) {
+                throw new Error("비밀번호는 4 ~ 15 문자로 입력해주세요.");
+            }
+            // 비밀번호가 영어나 숫자로 시작하지 않을 때
+            else if (!passwordReg.test(password)) {
+                throw new Error("비밀번호는 영어나 숫자로 시작해야 합니다.");
+            }
+            // 모든 유효성검사가 끝나고, 정보를 벡엔드로 전달
+            else {
                 await axios
                     .post("http://13.209.44.41:8080/user/signup", {
                         nickname: name,
@@ -52,13 +74,7 @@
         }
     };
 
-    // register
-    let name = "",
-        email = "",
-        password = "";
-
     $: submit = async () => {
-        // 입력된 닉네임, 이메일, 비밀번호가 유효한지 확인
         await checkValid().catch((e) => {
             alert(e.message);
         });
