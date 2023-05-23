@@ -8,7 +8,7 @@
     import { pop } from "svelte-spa-router";
 
     // make visible password or not.
-    let state = "visible";
+    let state = "invisible";
     let inputType = "text";
     const toVisible = () => {
         state = "visible";
@@ -128,6 +128,7 @@
                             bind:value={name}
                             type="text"
                             placeholder="ItoR"
+                            id="nickname"
                         />
                     </div>
                     <div>
@@ -140,6 +141,7 @@
                             bind:value={email}
                             type="email"
                             placeholder="name@company.com"
+                            id="email"
                         />
                     </div>
                     <div>
@@ -156,6 +158,7 @@
                                 bind:value={password}
                                 type={inputType}
                                 placeholder="••••••••"
+                                id="password"
                             />
                             {#if state == "visible"}
                                 <button

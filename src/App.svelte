@@ -25,13 +25,13 @@
   import MyForm from "./pages/myForm.svelte";
   import DesignSystem from "./pages/DesignSystem.svelte";
   import CreateForm from "./pages/createForm.svelte";
-  import CreateAccount from "./pages/createAccount.svelte";
+  import SignUp from "./pages/signUp.svelte";
 </script>
 
 <Router>
   <Route path="/" component={Home} />
   <Route path="/login" component={Login} />
-  <Route path="/createaccount" component={CreateAccount} />
+  <Route path="/signup" component={SignUp} />
   <Route path="/teammember" component={TeamMember} />
   <Route path="/myform" component={MyForm} />
   <Route path="/createform" component={CreateForm} />

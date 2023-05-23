@@ -92,7 +92,7 @@
       <a href="/" class="text-sm font-medium text-gray-600 hover:underline"
         >비밀번호 찾기</a
       ><span class="font-light text-sm text-gray-300">|</span><a
-        href="/createaccount"
+        href="/signup"
         class="text-sm font-medium text-gray-600 hover:underline">회원가입</a
       >
     </div>
