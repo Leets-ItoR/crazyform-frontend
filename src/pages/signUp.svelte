@@ -9,7 +9,7 @@
 
     // make visible password or not.
     let state = "invisible";
-    let inputType = "text";
+    let inputType = "password";
     const toVisible = () => {
         state = "visible";
         inputType = "text";

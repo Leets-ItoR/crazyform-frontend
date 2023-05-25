@@ -26,6 +26,7 @@
   import DesignSystem from "./pages/DesignSystem.svelte";
   import CreateForm from "./pages/createForm.svelte";
   import SignUp from "./pages/signUp.svelte";
+  import EmailConfirm from "./pages/emailConfirm.svelte";
 </script>
 
 <Router>
@@ -36,4 +37,5 @@
   <Route path="/myform" component={MyForm} />
   <Route path="/createform" component={CreateForm} />
   <Route path="/designsystem" component={DesignSystem} />
+  <Route path="/emailconfirm" component={EmailConfirm} />
 </Router>
